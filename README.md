@@ -2,8 +2,9 @@
 
 [layui](https://github.com/sentsin/layer) 是[贤心](https://github.com/sentsin) 编写的一款弹出层, 号称是最好用的 web 弹出层组件. 处于个人需要, 将其打包成 rails assets gem 包.
 
-备注: 打包的代码不是是直接从官网 http://layer.layui.com/ 下载的 2.1 的版本.
+备注: 打包的代码是直接从官网 http://layer.layui.com/ 下载的 2.1 的版本. 而不是从 github 地址打包的.
 
+第一次制作 assets gem, 参考了 http://pete-hamilton.co.uk/2012/11/01/creating-gems-for-rails-assets/. 
 
 ## Installation
 
@@ -24,7 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-资产的目录树结构为: 
+资产的目录树结构为(使用 tree 命令生成): 
 
 ```
 vendor
@@ -45,7 +46,7 @@ vendor
 
 使用是在 application.js/application.css 中 `require layer` 或者 `require layer.ext`
 
-
+具体的如何使用, 请参考 layer-ui 的文档 [http://layer.layui.com/api.html].
 
 ## Development
 
@@ -55,7 +56,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/layer-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/xiajian/layer-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## License
 
