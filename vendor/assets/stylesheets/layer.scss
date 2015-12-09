@@ -70,11 +70,11 @@ html #layui_layer_skinlayercss {
 }
 
 .layui-layer-load {
-    background: url(../images/loading-0.gif) center center no-repeat #fff
+    background: url(image_path("loading-0.gif")) center center no-repeat #fff
 }
 
 .layui-layer-ico {
-    background: url(../images/icon.png) no-repeat
+    background: url(image_path("icon.png")) no-repeat
 }
 
 .layui-layer-btn a, .layui-layer-dialog .layui-layer-ico, .layui-layer-setwin a {
@@ -602,19 +602,19 @@ html #layui_layer_skinlayercss {
 .layui-layer-loading .layui-layer-content {
     width: 60px;
     height: 24px;
-    background: url(../images/loading-0.gif) no-repeat
+    background: url(image_path("loading-0.gif")) no-repeat
 }
 
 .layui-layer-loading .layui-layer-loading1 {
     width: 37px;
     height: 37px;
-    background: url(../images/loading-1.gif) no-repeat
+    background: url(image_path("loading-1.gif")) no-repeat
 }
 
 .layui-layer-ico16, .layui-layer-loading .layui-layer-loading2 {
     width: 32px;
     height: 32px;
-    background: url(../images/loading-2.gif) no-repeat
+    background: url(image_path("loading-2.gif")) no-repeat
 }
 
 .layui-layer-tips {
